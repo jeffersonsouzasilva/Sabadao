@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 85%;
+    /* margin: 0 auto; */
+}
+
+.containerLinks {
+    width: 210px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.link {
+    font-family: 'Relaway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #33303E;
+}
+
+.orange {
+    color: #FF6E22;
+    
+}
+
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    /* align-items: center; */
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.left h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+}
+
+.left p {
+    width: 650px ;
+    height: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+    .main_btn {
+        /* width: 50%; */
+        /* padding: 8px 0px; */
+        margin: 30px 30px 30px 0px;
+        border: none;
+        /* border-radius: 15px; */
+        /* font-weight: 600; */
+        /* letter-spacing: 2px; */
+
+        /* position: absolute; */
+        width: 244px;
+        height: 62px;
+        /* left: 112px; */
+        /* top: 466px; */
+
+        border-radius: 10px;
+
+        font-family: 'Mochiy Pop One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffff;
+
+        background: #FF9922;
+        cursor: pointer;
+        
+    }
+
+.right {
+    /* width: 50vw; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row ;
+}
+
+.right img {
+    width: 592px;
+    height: 429px;
+    /* display: flex; */
+    /* margin: 30px; */
+}
